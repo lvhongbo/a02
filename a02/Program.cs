@@ -56,3 +56,6 @@ using a02;
 
 CallDataProcess.GenerateData("d:/call_data.txt");
 
+CallDataProcess callDataProcess = new CallDataProcess();
+callDataProcess.StaticData("d:/call_data.txt");
+
